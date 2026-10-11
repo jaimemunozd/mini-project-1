@@ -238,6 +238,10 @@ CONTACT
   border-radius: 16px;
 }
 
+.section__card--contact .section__description {
+  width: 100%;
+}
+
 form {
   width: 100%;
   max-width: 900px;
@@ -246,6 +250,7 @@ form {
   margin: 0 auto;
   padding: 0px 24px;
   gap: 12px;
+  box-sizing: border-box;
 }
 
 input,
@@ -253,8 +258,9 @@ textarea {
   margin-bottom: 24px;
   font-size: 20px;
   padding: 6px 12px;
-  width: 500px;
+  width: 100%;
   border-radius: 6px;
+  box-sizing: border-box;
 }
 
 /* 
@@ -332,10 +338,5 @@ SMALL SCREEN
   }
   .section__description--wrapper {
     width: 100%;
-  }
-
-  input,
-  textarea {
-    width: 400px;
   }
 }
